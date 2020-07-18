@@ -1,3 +1,4 @@
+lives = 5
 global.shot_defined = false
 ini_open(global.repeats)
 can_shoot = true;
