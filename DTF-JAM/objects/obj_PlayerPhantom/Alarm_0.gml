@@ -25,4 +25,4 @@ switch (doing) {
 	}
 }
 current_doing += 1;
-alarm_set(0, ini_read_real("time", current_doing, ""));
+alarm_set(0, ini_read_real("time", current_doing, "") - ini_read_real("time", current_doing - 1, ""));

@@ -1,3 +1,8 @@
+for (i = 1; i <= global.repeats; i++) {
+	global.current_ini = i
+	instance_create_depth(0, 0, 0, obj_PlayerPhantom);
+}
+global.repeats += 1
 spawn_rng = choose(0,1,2,3);
 switch (spawn_rng) {
 	case 0: {
