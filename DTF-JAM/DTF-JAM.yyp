@@ -31,6 +31,30 @@
     },
     "resources": [
         {
+            "Key": "001d8c9b-29c8-4002-8dfe-d6147ad9482c",
+            "Value": {
+                "id": "470875ec-3eac-4c90-a806-7063c35fbc04",
+                "resourcePath": "sprites\\spr_hero_back_step\\spr_hero_back_step.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "02d44ce4-9425-4fab-b573-bc5125562415",
+            "Value": {
+                "id": "20a3a9a4-33bd-475c-b371-eea7f47261b2",
+                "resourcePath": "sprites\\spr_cheme_all\\spr_cheme_all.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "06013e42-cab7-47a1-875e-5183aa2f542d",
+            "Value": {
+                "id": "fad721aa-9177-4f54-84f3-811d9af8662f",
+                "resourcePath": "sprites\\spr_enemy_pillow\\spr_enemy_pillow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08beb433-393a-47d6-8294-df6d24456c4f",
             "Value": {
                 "id": "fb3c42f3-539c-4878-bf7f-70290a1611b9",
@@ -67,6 +91,14 @@
             "Value": {
                 "id": "374e03c5-34e7-4969-807b-721e92c783b0",
                 "resourcePath": "sprites\\spr_hero_front_step\\spr_hero_front_step.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "25451ad3-ecb7-4f85-a99f-d5e53090a2cc",
+            "Value": {
+                "id": "626361ee-ac20-4b5f-8fe6-fe590f65f73b",
+                "resourcePath": "sprites\\spr_enemy_pillow_shoot\\spr_enemy_pillow_shoot.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -191,6 +223,14 @@
             }
         },
         {
+            "Key": "7a9467fb-87f6-4523-a936-b0eba96e9b51",
+            "Value": {
+                "id": "4a114cfd-07ef-48de-84cb-236374787406",
+                "resourcePath": "views\\7a9467fb-87f6-4523-a936-b0eba96e9b51.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8e685148-00c3-4b21-b834-c3e2f111804c",
             "Value": {
                 "id": "81e50986-84f5-43a0-ab53-bfbf6a661a0a",
@@ -210,7 +250,7 @@
             "Key": "a82773dd-aa34-4a97-92b0-9ce8c9de5419",
             "Value": {
                 "id": "812ef220-739a-411d-a7e7-bc5c84d058d8",
-                "resourcePath": "sprites\\spr_arm_with_gun\\spr_arm_with_gun.yy",
+                "resourcePath": "sprites\\spr_arm_with_gun_idle\\spr_arm_with_gun_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -223,11 +263,27 @@
             }
         },
         {
+            "Key": "b0ce587c-1f14-45a8-a789-9848047bb8b0",
+            "Value": {
+                "id": "3cfdcc26-f1fa-43db-a036-428fb1fd6609",
+                "resourcePath": "sprites\\spr_enemy_pillow_bullet\\spr_enemy_pillow_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b11cab27-1273-4b58-9262-db9f553a2399",
             "Value": {
                 "id": "e553630c-8246-4ca8-9313-d6495a9b7ba6",
                 "resourcePath": "objects\\obj_Player\\obj_Player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b29463a7-9766-4f5a-b639-1230f1a9cee7",
+            "Value": {
+                "id": "dac31e78-1f8b-437b-805b-1eb14efac081",
+                "resourcePath": "sprites\\sprite10\\sprite10.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -260,6 +316,14 @@
                 "id": "53efcf72-248e-4f48-a5fd-b874d5bb07a8",
                 "resourcePath": "views\\d6827358-7b27-4006-b1a9-60cdc7322b6b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e2383ff7-b8cb-4b2d-bd34-4ae62a36e4b7",
+            "Value": {
+                "id": "4159eb91-fc25-4774-a9eb-8cd511acf307",
+                "resourcePath": "sprites\\spr_arm_with_gun_shot\\spr_arm_with_gun_shot.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

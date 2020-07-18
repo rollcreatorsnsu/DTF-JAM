@@ -2,7 +2,7 @@
     "id": "a82773dd-aa34-4a97-92b0-9ce8c9de5419",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_arm_with_gun",
+    "name": "spr_arm_with_gun_idle",
     "For3D": false,
     "HTile": false,
     "VTile": false,
