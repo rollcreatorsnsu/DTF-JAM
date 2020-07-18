@@ -5,21 +5,26 @@ switch (doing) {
 		global.shot_dir = ini_read_real("direction", current_doing, "");
 		instance_create_depth(x, y, depth, obj_Bullet);
 		global.shot_defined = false;
+		break;
 	}
 	default: {
 		dir = ini_read_string("direction", current_doing, "");
 		switch (dir) {
 			case "left": {
 				left = doing == "move"
+				break;
 			}
 			case "right": {
 				right = doing == "move"
+				break;
 			}
 			case "up": {
 				up = doing == "move"
+				break;
 			}
 			case "down": {
 				down = doing == "move"
+				break;
 			}
 		}
 	}
