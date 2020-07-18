@@ -1,6 +1,7 @@
 if (shoot == true) {
-	if (image_index <= image_number - 1) {
-		draw_sprite(spr_enemy_pillow_shoot, image_index, x, y);
+	if (shoot_index < sprite_get_number(spr_enemy_pillow_shoot)) {
+		draw_sprite(spr_enemy_pillow_shoot, shoot_index, x, y);
+		shoot_index += 1;
 	} else {
 		draw_sprite(spr_enemy_pillow, image_index, x, y);
 		shoot = false;
