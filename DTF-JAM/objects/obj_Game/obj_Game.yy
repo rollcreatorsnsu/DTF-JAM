@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_Game",
     "eventList": [
-        
+        {
+            "id": "ed6acb53-7030-4596-b2eb-a5d691c4b1e3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "08beb433-393a-47d6-8294-df6d24456c4f"
+        },
+        {
+            "id": "5d133ac4-2c6f-4944-848d-d531d633e7e1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "08beb433-393a-47d6-8294-df6d24456c4f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
