@@ -95,10 +95,26 @@
             }
         },
         {
+            "Key": "383adc37-0759-40c0-8b77-00c4c4b78ffc",
+            "Value": {
+                "id": "848352ae-5e50-412f-b857-94d866f9b510",
+                "resourcePath": "sprites\\sp_bullet\\sp_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "51dc00e1-758a-4d92-9f18-dec042186baf",
             "Value": {
                 "id": "e2f266ab-e1b5-423d-8b51-fb69d2352e70",
                 "resourcePath": "sprites\\spr_bullet\\spr_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "59c8cfff-9bb1-47c3-844b-57e28ce3f762",
+            "Value": {
+                "id": "a5fec2dd-a41c-4daa-bf41-eb9c8178aedd",
+                "resourcePath": "sprites\\spr_hero_back\\spr_hero_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -167,6 +183,22 @@
             }
         },
         {
+            "Key": "a82773dd-aa34-4a97-92b0-9ce8c9de5419",
+            "Value": {
+                "id": "812ef220-739a-411d-a7e7-bc5c84d058d8",
+                "resourcePath": "sprites\\spr_arm_with_gun\\spr_arm_with_gun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "8800b7cd-5571-4d02-a1b2-04024bc6fb94",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "b11cab27-1273-4b58-9262-db9f553a2399",
             "Value": {
                 "id": "e553630c-8246-4ca8-9313-d6495a9b7ba6",
@@ -212,6 +244,22 @@
                 "id": "36bb9bc9-5cf8-4aad-80b0-46bc8bd31a3e",
                 "resourcePath": "views\\e3d2e840-d48f-4b4b-a027-8ecdebb58c05.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ef1cdaee-62a8-4be4-9fe2-e529f33c367e",
+            "Value": {
+                "id": "f07d5d73-7a32-49b4-b8e7-551215c91154",
+                "resourcePath": "sprites\\spr_hero\\spr_hero.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "80e10709-77c2-4aa6-8e11-b10c4ef89fd1",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
