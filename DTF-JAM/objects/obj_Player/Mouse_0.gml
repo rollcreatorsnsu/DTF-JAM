@@ -3,3 +3,4 @@ if (can_shoot == true) {
 	can_shoot = false;
 	alarm_set(0, 10);
 }
+is_shoot = true;
