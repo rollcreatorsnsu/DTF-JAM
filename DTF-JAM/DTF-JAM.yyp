@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2080dd79-df72-4710-bfa3-ec6c953d2fdf",
+            "Value": {
+                "id": "d266ae56-fd59-427f-a8a6-36995d159361",
+                "resourcePath": "rooms\\room01\\room01.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "25451ad3-ecb7-4f85-a99f-d5e53090a2cc",
             "Value": {
                 "id": "626361ee-ac20-4b5f-8fe6-fe590f65f73b",
