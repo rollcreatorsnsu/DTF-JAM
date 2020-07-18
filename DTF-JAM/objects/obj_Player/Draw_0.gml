@@ -1,4 +1,3 @@
-image_speed = 1;
 if (is_step == false) {
 	if (is_down == true) {
 		draw_sprite(spr_hero_front_idle, image_index, x, y);
