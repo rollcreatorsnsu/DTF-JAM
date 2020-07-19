@@ -9,5 +9,6 @@ is_attack_1 = false
 attack_1_count = 0
 is_attack_2 = false
 attack_2_count = 0
+portal_count = 0
 alarm_set(0, 100)
 alarm_set(2, 50)
