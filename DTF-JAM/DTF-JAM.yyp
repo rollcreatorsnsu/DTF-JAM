@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "c868155b-6fac-4581-94a8-4582eea702f4",
+            "Value": {
+                "id": "7b969d5f-af10-4bb0-b823-f4aa38e242cf",
+                "resourcePath": "objects\\obj_BossBullet\\obj_BossBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "db47d3b5-e1fc-4ec0-afdf-0b43a78adbde",

@@ -1,1 +1,2 @@
-alarm_set(1, 5000)
+instance_create_depth(x, y, depth, obj_BossBullet)
+alarm_set(1, 500)
