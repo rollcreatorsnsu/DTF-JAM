@@ -54,6 +54,7 @@ if (!is_dead) {
 } else {
 	if (dead_count < sprite_get_number(spr_boss_death)) {
 		draw_sprite(spr_boss_idle, dead_count, x, y);
+		draw_sprite(spr_burst_death, dead_count * 1.25, x, y)
 		dead_count += 1 / sprite_get_speed(spr_boss_death)
 	} else {
 		instance_destroy()
