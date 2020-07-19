@@ -24,7 +24,7 @@ if (is_dead == false) {
 	}
 } else {
 	if (dead_cnt < sprite_get_number(spr_hero_front_die)) {
-		draw_sprite(spr_hero_front_die, dead_cnt, x, y)
+		draw_sprite_ext(spr_hero_front_die, dead_cnt, x, y, is_right ? -1 : 1, 1, 0, c_white, 255)
 		dead_cnt += 1 / sprite_get_speed(spr_hero_front_die)
 	} else {
 		instance_destroy();
