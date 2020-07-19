@@ -210,7 +210,7 @@
             "Key": "6144d9d1-e816-40e6-bc59-3d2a1ebb2506",
             "Value": {
                 "id": "eedb5a39-52ef-43b1-bb20-e411342d166b",
-                "resourcePath": "objects\\obj_Enemy\\obj_Enemy.yy",
+                "resourcePath": "objects\\obj_Enemy_Pillow\\obj_Enemy_Pillow.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -395,6 +395,14 @@
             "Value": {
                 "id": "b67ab982-622a-4b8f-965f-b79525c3a0c4",
                 "resourcePath": "objects\\obj_solid\\obj_solid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ea00fdda-81b8-492a-93db-38fab47bc3f6",
+            "Value": {
+                "id": "1e4dfd9d-b531-4937-959d-0072f32466b8",
+                "resourcePath": "objects\\obj_Enemy_Snale\\obj_Enemy_Snale.yy",
                 "resourceType": "GMObject"
             }
         },
