@@ -11,3 +11,5 @@ is_right = false
 is_step = false
 file = file_text_open_read(global.current_ini)
 time = 0
+is_dead = false
+dead_cnt = 0

@@ -5,16 +5,6 @@
     "name": "obj_BossBullet",
     "eventList": [
         {
-            "id": "2d49f5bf-a3d8-4d9b-a221-ec8b1d7d3b83",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "b11cab27-1273-4b58-9262-db9f553a2399",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "c868155b-6fac-4581-94a8-4582eea702f4"
-        },
-        {
             "id": "1eca603c-6027-4455-b270-a991dbea3f52",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "c868155b-6fac-4581-94a8-4582eea702f4"
+        },
+        {
+            "id": "ddbb2af0-f41c-4b5f-b44f-434113fdaacd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "c868155b-6fac-4581-94a8-4582eea702f4"
         }
     ],

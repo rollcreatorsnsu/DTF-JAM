@@ -1,7 +1,12 @@
+if (is_dead == true) return;
 while (time <= global.cur_time && !file_text_eof(file)) {
 	doing = file_text_read_string(file);
 	file_text_readln(file)
 	switch (doing) {
+		case "dead": {
+			is_dead = true;
+			return;
+		}
 		case "shot": {
 			global.shot_defined = true
 			global.shot_dir = file_text_read_real(file);
