@@ -1,3 +1,5 @@
+is_down = mouse_y > y
+is_right = mouse_x > x
 if (is_dead == false) {
 	if (is_step == false) {
 		if (is_down == true) {
