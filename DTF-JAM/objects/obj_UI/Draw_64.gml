@@ -1,10 +1,11 @@
 draw_set_valign(fa_top)
 draw_set_color(c_white)
 draw_set_halign(fa_left)
-draw_text(0, 0, lives)
-draw_set_halign(fa_center)
+draw_sprite(ui_life, 0, 0, 0);
+draw_text(sprite_get_width(ui_life), 0, lives)
+draw_sprite(ui_time_rec, 0, room_width / 2, 0);
 time = global.cur_time
 seconds = time / 1000
-draw_text(room_width / 2, 0, string(seconds));
+draw_text(sprite_get_width(ui_time_rec) + room_width / 2, 0, string(seconds));
 draw_set_halign(fa_right)
 draw_text(room_width, 0, global.repeats - 1);
