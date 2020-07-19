@@ -2,9 +2,7 @@ x = room_width / 2
 y = room_height / 2
 lives = 5
 global.shot_defined = false
-ini_open(global.repeats)
+file = file_text_open_write(global.repeats)
 can_shoot = true;
 is_down = true;
 is_right = false;
-ini_write_real("time", 0, get_timer())
-current_doing = 1;

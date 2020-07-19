@@ -1,1 +1,1 @@
-ini_close()
+file_text_close(file);

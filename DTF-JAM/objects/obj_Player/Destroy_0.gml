@@ -1,3 +1,3 @@
 instance_destroy(obj_PlayerPhantom)
-ini_close()
+file_text_close(file)
 room_restart()

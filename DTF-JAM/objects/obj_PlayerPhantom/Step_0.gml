@@ -1,3 +1,37 @@
+while (time <= global.cur_time) {
+	doing = file_text_read_string(file);
+	switch (doing) {
+		case "shot": {
+			global.shot_defined = true
+			global.shot_dir = file_text_read_real(file);
+			instance_create_depth(x, y, depth, obj_Bullet);
+			global.shot_defined = false;
+			break;
+		}
+		default: {
+			dir = file_text_read_string(file);
+			switch (dir) {
+				case "left": {
+					left = doing == "move"
+					break;
+				}
+				case "right": {
+					right = doing == "move"
+					break;
+				}
+				case "up": {
+					up = doing == "move"
+					break;
+				}
+				case "down": {
+					down = doing == "move"
+					break;
+				}
+			}
+		}
+	}
+	time = file_text_read_real(file)
+}
 if (left == true) {
 	x -= 1;
 }
