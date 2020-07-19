@@ -1,3 +1,5 @@
+x = room_width / 2
+y = room_height / 2
 lives = 5
 global.shot_defined = false
 ini_open(global.repeats)
