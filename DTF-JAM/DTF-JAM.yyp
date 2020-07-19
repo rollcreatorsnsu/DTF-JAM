@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "51424ce1-b4ac-4bf3-98a2-5900be82fc97",
+            "Value": {
+                "id": "efb64ed0-733c-40ea-af23-8534e857c500",
+                "resourcePath": "objects\\obj_Enemy_Boss\\obj_Enemy_Boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "51dc00e1-758a-4d92-9f18-dec042186baf",
             "Value": {
                 "id": "e2f266ab-e1b5-423d-8b51-fb69d2352e70",
