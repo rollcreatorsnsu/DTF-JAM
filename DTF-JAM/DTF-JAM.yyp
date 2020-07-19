@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "24bcc22a-d6b8-4d28-b7b6-985fcd2bba0f",
+            "Value": {
+                "id": "1b572bdb-399c-48e0-858d-03e924c4d10e",
+                "resourcePath": "objects\\obj_BossBulletSmall\\obj_BossBulletSmall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "25451ad3-ecb7-4f85-a99f-d5e53090a2cc",
             "Value": {
                 "id": "626361ee-ac20-4b5f-8fe6-fe590f65f73b",
@@ -476,6 +484,14 @@
                 "id": "92f3e86f-0372-47ad-bb9e-bebb3a6a1af1",
                 "resourcePath": "views\\c4f8ec7b-ed67-4e88-9fca-f7585ea5cd98.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c868155b-6fac-4581-94a8-4582eea702f4",
+            "Value": {
+                "id": "7b969d5f-af10-4bb0-b823-f4aa38e242cf",
+                "resourcePath": "objects\\obj_BossBullet\\obj_BossBullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -1,0 +1,1 @@
+draw_text(x, y, global.cur_time / 1000)
