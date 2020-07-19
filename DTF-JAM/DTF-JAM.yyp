@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "07721312-88b3-4250-a376-04b8e1c943c5",
-            "Value": {
-                "id": "82b0ae0c-f8c2-4f23-9026-bc2723c5e433",
-                "resourcePath": "objects\\obj_boss\\obj_boss.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "08beb433-393a-47d6-8294-df6d24456c4f",
             "Value": {
                 "id": "fb3c42f3-539c-4878-bf7f-70290a1611b9",
@@ -186,7 +178,7 @@
             "Key": "4ae8bbd0-365a-4de4-b758-2d39deb1ac6d",
             "Value": {
                 "id": "76756446-e434-450e-8c4e-bbaf19397a4e",
-                "resourcePath": "sprites\\sprite16\\sprite16.yy",
+                "resourcePath": "sprites\\spr_boss_idle\\spr_boss_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -220,14 +212,6 @@
                 "id": "8cbd21e3-5646-44d5-8fd5-d6e775430ecb",
                 "resourcePath": "views\\5b62c0da-4619-4403-b69c-82e455873744.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5e4eda51-9d10-4d20-959b-ea5066cc095b",
-            "Value": {
-                "id": "c3618d6a-2349-4113-b4d1-872500ac1299",
-                "resourcePath": "sprites\\spr_snale_death\\spr_snale_death.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -439,6 +423,14 @@
             }
         },
         {
+            "Key": "d85f70b0-d452-4378-8fc3-4e649ee0b08f",
+            "Value": {
+                "id": "4a1d0ccf-f87e-4616-9f45-865500c49f6c",
+                "resourcePath": "sprites\\ui_time_rec\\ui_time_rec.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2383ff7-b8cb-4b2d-bd34-4ae62a36e4b7",
             "Value": {
                 "id": "4159eb91-fc25-4774-a9eb-8cd511acf307",
@@ -483,6 +475,14 @@
             "Value": {
                 "id": "f07d5d73-7a32-49b4-b8e7-551215c91154",
                 "resourcePath": "sprites\\spr_hero_front_idle\\spr_hero_front_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f2e61320-c3b0-49cd-892b-c30830c343bf",
+            "Value": {
+                "id": "a61ac022-6c79-4df4-9b0e-4bf206764a6e",
+                "resourcePath": "sprites\\spr_boss_welcome\\spr_boss_welcome.yy",
                 "resourceType": "GMSprite"
             }
         },
