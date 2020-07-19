@@ -4,4 +4,5 @@ ini_open(global.repeats)
 can_shoot = true;
 is_down = true;
 is_right = false;
-current_doing = 0;
+ini_write_real("time", 0, get_timer())
+current_doing = 1;
