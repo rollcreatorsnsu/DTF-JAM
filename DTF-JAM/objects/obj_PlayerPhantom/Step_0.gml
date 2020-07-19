@@ -1,4 +1,4 @@
-while (time <= global.cur_time) {
+while (time <= global.cur_time && !file_text_eof(file)) {
 	doing = file_text_read_string(file);
 	file_text_readln(file)
 	switch (doing) {
