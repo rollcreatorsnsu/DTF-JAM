@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "18430905-5b79-460f-aa73-27eeba3a2c53",
+            "Value": {
+                "id": "db6f5c34-0e71-4434-83c4-09fd1bec1605",
+                "resourcePath": "sprites\\sprite33\\sprite33.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1d10058b-100d-4df9-bf83-f0f077d0c320",
             "Value": {
                 "id": "548c14a9-df5d-47f9-8291-6333b028b764",
@@ -164,6 +172,14 @@
                 "id": "ba2fc001-69ca-42c8-9bad-f6195a29eb60",
                 "resourcePath": "sprites\\spr_boss_death\\spr_boss_death.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2bcc1119-6be2-4862-8588-a9495d67e4b8",
+            "Value": {
+                "id": "2d618452-deba-404a-90a2-bfefcba49f37",
+                "resourcePath": "objects\\obj_fall\\obj_fall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
