@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0a4c72e9-53f4-40ea-b48a-e130b3f3477d",
+            "Value": {
+                "id": "f5296f0a-ef36-435e-b156-4bc4de6c192b",
+                "resourcePath": "sprites\\spr_menu_player\\spr_menu_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a61ee37-bc3c-4a40-9b57-74f5568e0679",
             "Value": {
                 "id": "7cb0920e-47b2-4fbf-be48-ac1ded0b59dd",
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "48c70a85-2f03-4c78-b14d-52447b20b959",
+            "Value": {
+                "id": "4fd5f57f-013e-41be-9991-4532a43aac65",
+                "resourcePath": "sprites\\spr_menu_exit\\spr_menu_exit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4ae8bbd0-365a-4de4-b758-2d39deb1ac6d",
             "Value": {
                 "id": "76756446-e434-450e-8c4e-bbaf19397a4e",
@@ -275,6 +291,14 @@
             "Value": {
                 "id": "e2f266ab-e1b5-423d-8b51-fb69d2352e70",
                 "resourcePath": "sprites\\spr_bullet\\spr_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "54195d94-fc61-4af3-998d-729d700f30e9",
+            "Value": {
+                "id": "f9ac3fc1-f8e7-46e8-85ba-d846665b86cc",
+                "resourcePath": "sprites\\spr_menu_back\\spr_menu_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -423,6 +447,14 @@
             }
         },
         {
+            "Key": "9264fb0c-1417-463d-a839-e690307e218b",
+            "Value": {
+                "id": "719b742c-1c8b-4ead-8deb-dc79abad08d6",
+                "resourcePath": "sprites\\spr_menu_titel\\spr_menu_titel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "959ec273-4876-49b2-b679-c61ad3891ee1",
             "Value": {
                 "id": "7f076cb7-2bf1-41ad-a4e4-33e2ac7df0ba",
@@ -484,6 +516,14 @@
                 "id": "8800b7cd-5571-4d02-a1b2-04024bc6fb94",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "abdd7c2c-6077-42df-a641-e8e70f660690",
+            "Value": {
+                "id": "d91c6819-a586-412a-a085-90cc8f495933",
+                "resourcePath": "sprites\\spr_menu_boss\\spr_menu_boss.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -567,6 +607,14 @@
             }
         },
         {
+            "Key": "d13ad68c-bb0c-49d7-8f6a-95734e7f7b08",
+            "Value": {
+                "id": "662eb535-83e4-4e17-adb7-05aa5907e2ad",
+                "resourcePath": "views\\d13ad68c-bb0c-49d7-8f6a-95734e7f7b08.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d1dc8f22-378d-466e-894e-9a7c909056fa",
             "Value": {
                 "id": "bb0cf046-18db-4cf2-809c-c44528494e18",
@@ -603,6 +651,14 @@
             "Value": {
                 "id": "4a1d0ccf-f87e-4616-9f45-865500c49f6c",
                 "resourcePath": "sprites\\ui_time_rec\\ui_time_rec.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e1ef63bf-4f6f-472c-894e-4cf2e1ceba82",
+            "Value": {
+                "id": "be719546-c540-4115-96b7-0c36e50e6ba7",
+                "resourcePath": "sprites\\spr_cheme\\spr_cheme.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -644,6 +700,14 @@
                 "id": "1e4dfd9d-b531-4937-959d-0072f32466b8",
                 "resourcePath": "objects\\obj_Enemy_Snale\\obj_Enemy_Snale.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eb02d93a-48c5-4739-a461-1033db7877ff",
+            "Value": {
+                "id": "761d730f-bc3e-4ff8-96a0-7ba8c9c980d6",
+                "resourcePath": "sprites\\spr_menu_start\\spr_menu_start.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
