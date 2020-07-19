@@ -1,4 +1,4 @@
-if (is_dead == true || place_meeting(x, y - 1, obj_solid)) return;
-y -= 1
+if (is_dead == true || place_meeting(x, y - s, obj_solid)) return;
+y -= s
 is_step = true;
 is_down = false

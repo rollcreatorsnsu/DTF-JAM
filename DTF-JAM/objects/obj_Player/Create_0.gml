@@ -9,3 +9,4 @@ is_right = false;
 is_dead = false
 dead_cnt = 0
 hurt = false
+s = 2
