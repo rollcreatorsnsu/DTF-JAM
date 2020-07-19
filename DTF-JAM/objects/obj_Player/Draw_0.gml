@@ -1,14 +1,18 @@
 if (is_step == false) {
 	if (is_down == true) {
 		draw_sprite_ext(spr_hero_front_idle, image_index, x, y, is_right ? -1 : 1, 1, 0, c_white, 1);
+		draw_sprite(spr_S_front_idle, image_index, x, y)
 	} else {
-		draw_sprite_ext(spr_hero_back, image_index, x, y, is_right ? -1 : 1, 1, 0, c_white, 1);	
+		draw_sprite_ext(spr_hero_back, image_index, x, y, is_right ? -1 : 1, 1, 0, c_white, 1);
+		draw_sprite(spr_S_back, image_index, x, y)
 	}
 } else {
 	if (is_down == true) {
 		draw_sprite_ext(spr_hero_front_step, image_index, x, y, is_right ? -1 : 1, 1, 0, c_white, 1);
+		draw_sprite(spr_S_front_step, image_index, x, y)
 	} else {
 		draw_sprite_ext(spr_hero_back_step, image_index, x, y, is_right ? -1 : 1, 1, 0, c_white, 1);
+		draw_sprite(spr_S_back_step, image_index, x, y)
 	}
 }
 dir = point_direction(mouse_x, mouse_y, x, y)
