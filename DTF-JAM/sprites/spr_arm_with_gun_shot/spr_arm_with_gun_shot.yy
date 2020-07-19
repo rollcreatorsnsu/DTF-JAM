@@ -126,7 +126,7 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "burst",
-            "opacity": 50,
+            "opacity": 100,
             "visible": true
         }
     ],

@@ -95,11 +95,11 @@
             }
         },
         {
-            "Key": "2080dd79-df72-4710-bfa3-ec6c953d2fdf",
+            "Key": "1d10058b-100d-4df9-bf83-f0f077d0c320",
             "Value": {
-                "id": "d266ae56-fd59-427f-a8a6-36995d159361",
-                "resourcePath": "rooms\\room01\\room01.yy",
-                "resourceType": "GMRoom"
+                "id": "548c14a9-df5d-47f9-8291-6333b028b764",
+                "resourcePath": "objects\\obj_intro\\obj_intro.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -124,6 +124,14 @@
                 "id": "b1db58c1-4efd-422b-84bc-360fddba6313",
                 "resourcePath": "views\\2c5d008a-d8be-4f8d-963f-49f9c3af6107.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2fcced22-fb53-41d0-aec1-a2cfb73f8516",
+            "Value": {
+                "id": "f55a015b-7e7c-4087-ae17-2f7cd2f45e8e",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "598dff0a-2d0e-4039-8ca1-756d039249fc",
+            "Value": {
+                "id": "d4c610e9-4247-4ea7-b3f4-7b04304be1ac",
+                "resourcePath": "sprites\\spr_enemy_pillow_death\\spr_enemy_pillow_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59c8cfff-9bb1-47c3-844b-57e28ce3f762",
             "Value": {
                 "id": "a5fec2dd-a41c-4daa-bf41-eb9c8178aedd",
@@ -180,6 +196,14 @@
                 "id": "8cbd21e3-5646-44d5-8fd5-d6e775430ecb",
                 "resourcePath": "views\\5b62c0da-4619-4403-b69c-82e455873744.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5e4eda51-9d10-4d20-959b-ea5066cc095b",
+            "Value": {
+                "id": "c3618d6a-2349-4113-b4d1-872500ac1299",
+                "resourcePath": "sprites\\spr_snale_death\\spr_snale_death.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -380,6 +404,14 @@
                 "id": "36bb9bc9-5cf8-4aad-80b0-46bc8bd31a3e",
                 "resourcePath": "views\\e3d2e840-d48f-4b4b-a027-8ecdebb58c05.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e4b2975f-b0bc-4b69-9976-3d106829e3d4",
+            "Value": {
+                "id": "c17c531e-17aa-41f3-8e6b-b4b67b31aa5e",
+                "resourcePath": "objects\\obj_PlayerPhantom\\obj_PlayerPhantom.yy",
+                "resourceType": "GMObject"
             }
         },
         {
