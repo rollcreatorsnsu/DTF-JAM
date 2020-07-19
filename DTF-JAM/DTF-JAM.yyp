@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "598dff0a-2d0e-4039-8ca1-756d039249fc",
+            "Value": {
+                "id": "d4c610e9-4247-4ea7-b3f4-7b04304be1ac",
+                "resourcePath": "sprites\\spr_enemy_pillow_death\\spr_enemy_pillow_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59c8cfff-9bb1-47c3-844b-57e28ce3f762",
             "Value": {
                 "id": "a5fec2dd-a41c-4daa-bf41-eb9c8178aedd",
@@ -188,6 +196,14 @@
                 "id": "8cbd21e3-5646-44d5-8fd5-d6e775430ecb",
                 "resourcePath": "views\\5b62c0da-4619-4403-b69c-82e455873744.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5e4eda51-9d10-4d20-959b-ea5066cc095b",
+            "Value": {
+                "id": "c3618d6a-2349-4113-b4d1-872500ac1299",
+                "resourcePath": "sprites\\spr_snale_death\\spr_snale_death.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
