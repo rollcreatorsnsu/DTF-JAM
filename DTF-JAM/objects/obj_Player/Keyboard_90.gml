@@ -1,6 +1,9 @@
 if (is_dead == true) return;
 if (can_shoot == true) {
-	instance_create_depth(x, y, depth - 1, obj_Bullet);
+	dist_x = mouse_x - x
+	dist_y = mouse_y - y
+	dist = point_distance(x, y, mouse_x, mouse_y)
+	instance_create_depth(x + dist_x / dist * 15, y + dist_y / dist * 15, depth, obj_Bullet);
 	dir = point_direction(x, y, mouse_x, mouse_y)
 	file_text_write_string(file, "shot");
 	file_text_writeln(file);
