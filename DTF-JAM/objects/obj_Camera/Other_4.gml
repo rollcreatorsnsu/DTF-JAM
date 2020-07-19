@@ -1,7 +1,6 @@
 /// @description Camera
 
-cameraX = 0;
-cameraY = 0;
+
 target = obj_Player;
 
 cameraWidth = 960;
