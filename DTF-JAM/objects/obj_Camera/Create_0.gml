@@ -11,7 +11,6 @@ view_visible[0] = true;
 
 camera_set_view_size(view_camera[0], cameraWidth, cameraHeight);
 
-
 displayScale = 2;
 
 displayWidth = cameraWidth * displayScale;
