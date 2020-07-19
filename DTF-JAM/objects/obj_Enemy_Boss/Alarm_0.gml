@@ -1,4 +1,8 @@
-for (i = 0; i < 12; i++) {
-	instance_create_depth(x + irandom_range(-sprite_get_width(spr_boss_idle), sprite_get_width(spr_boss_idle)), y + irandom_range(-sprite_get_height(spr_boss_idle), sprite_get_height(spr_boss_idle)), depth, obj_BossBulletSmall)
+if (irandom_range(1, 2) == 1) {
+	is_attack_1 = true
+	attack_1_count = 0
+} else {
+	is_attack_2 = true
+	attack_2_count = 0
+	alarm_set(1, 1000)
 }
-alarm_set(0, 100)

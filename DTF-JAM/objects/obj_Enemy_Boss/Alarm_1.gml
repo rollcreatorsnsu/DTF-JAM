@@ -1,2 +1,2 @@
-instance_create_depth(x, y, depth, obj_BossBullet)
-alarm_set(1, 500)
+is_attack_2 = false
+alarm_set(0, 100)
