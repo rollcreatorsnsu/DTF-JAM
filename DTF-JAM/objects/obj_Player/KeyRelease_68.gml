@@ -1,4 +1,3 @@
-ini_write_string("doings", current_doing, "stop");
-ini_write_string("direction", current_doing, "right");
-ini_write_real("time", current_doing, get_timer());
-current_doing++
+file_text_write_string(file, "stop");
+file_text_write_string(file, "right");
+file_text_write_real(file, global.cur_time);
