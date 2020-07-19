@@ -32,5 +32,5 @@ switch (doing) {
 current_doing += 1;
 b = ini_read_real("time", current_doing - 1, 0)
 e = ini_read_real("time", current_doing, 0)
-time = (e - b) / room_speed
-alarm_set(0, time);
+time = (e - b)
+alarm_set(0, time > 0 ? time : 1);
