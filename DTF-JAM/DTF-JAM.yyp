@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "8de09aef-8613-4ffe-826a-9219691056f2",
+            "Value": {
+                "id": "b0f526ea-1cf2-4b1e-970a-d616de115b8d",
+                "resourcePath": "sprites\\ui_hp_bar_boss_symbol\\ui_hp_bar_boss_symbol.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e685148-00c3-4b21-b834-c3e2f111804c",
             "Value": {
                 "id": "81e50986-84f5-43a0-ab53-bfbf6a661a0a",
