@@ -45,9 +45,9 @@ if (!is_dead) {
 			if (attack_1_count < 6) {
 				draw_sprite(spr_boss_appear_time, attack_1_count, x + 69 * (is_reflected ? -1 : 1), y - 21)
 			} else if (attack_1_count < 8) {
-				draw_text(x + 64 * (is_reflected ? -1 : 1), y + 15, global.cur_time / 1000)
+				draw_text(x + 64 * (is_reflected ? -1 : 1), y + 15, 60 - global.cur_time / 1000)
 			} else if (attack_1_count < 9) {
-				draw_text(x + 48 * (is_reflected ? -1 : 1), y + 44, global.cur_time / 1000)
+				draw_text(x + 48 * (is_reflected ? -1 : 1), y + 44, 60 - global.cur_time / 1000)
 			} else if (attack_1_count < 10) {
 				if (bullet == false) {
 					instance_create_depth(x + 48 * (is_reflected ? -1 : 1), y + 44, depth, obj_BossBullet)
