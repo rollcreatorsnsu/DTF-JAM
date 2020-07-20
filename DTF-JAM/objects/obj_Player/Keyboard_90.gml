@@ -1,4 +1,4 @@
-if (is_dead == true) return;
+if (is_dead == true || is_stopped == true) return;
 if (can_shoot == true) {
 	dist_x = mouse_x - x
 	dist_y = mouse_y - y

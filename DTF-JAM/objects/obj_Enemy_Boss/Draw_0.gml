@@ -1,11 +1,21 @@
 if (!is_dead) {
 	if (is_begin) {
-		if (b < sprite_get_number(spr_boss_welcome)) {
-			draw_sprite(spr_boss_welcome, b, x, y)
-			b += 1 / sprite_get_speed(spr_boss_welcome)
+		if (is_step) {
+			draw_sprite(spr_boss_run, step_count, x, y)
+			step_count += 1 / sprite_get_speed(spr_boss_run)
+			if (step_count > sprite_get_number(spr_boss_run)) {
+				step_count = 0
+			}
 		} else {
-			is_begin = false
-			draw_sprite(spr_boss_idle, image_index, x, y)
+			global.boss_health = 100 * b / sprite_get_number(spr_boss_welcome)
+			if (b < sprite_get_number(spr_boss_welcome)) {
+				draw_sprite(spr_boss_welcome, b, x, y)
+				b += 1 / sprite_get_speed(spr_boss_welcome)
+			} else {
+				is_begin = false
+				obj_Player.is_stopped = false
+				draw_sprite(spr_boss_idle, image_index, x, y)
+			}
 		}
 	} else if (is_attack_2) {
 		draw_sprite(spr_boss_attack_2, attack_2_count, x, y)

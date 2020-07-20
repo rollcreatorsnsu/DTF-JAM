@@ -1,3 +1,4 @@
+if (global.boss_begin == true) return;
 spawn_rng = choose(0,1,2,3);
 switch (spawn_rng) {
 	case 0: {

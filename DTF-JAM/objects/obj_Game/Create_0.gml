@@ -10,4 +10,4 @@ alarm_set(0, 100);
 global.begin_time = current_time
 global.cur_time = 0
 global.boss_begin = false
-global.boss_health = 100
+global.boss_health = 0
