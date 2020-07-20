@@ -49,15 +49,15 @@ while (time <= global.cur_time && !file_text_eof(file)) {
 	time = file_text_read_real(file)
 	file_text_readln(file)
 }
-if (left == true) {
+if (left == true && place_empty(x - obj_Player.s, y, obj_solid)) {
 	x -= obj_Player.s;
 }
-if (right == true) {
+if (right == true && place_empty(x + obj_Player.s, y, obj_solid)) {
 	x += obj_Player.s;
 }
-if (up == true) {
+if (up == true && place_empty(x, y - obj_Player.s, obj_solid)) {
 	y -= obj_Player.s;
 }
-if (down == true) {
+if (down == true && place_empty(x, y + obj_Player.s, obj_solid)) {
 	y += obj_Player.s;
 }
