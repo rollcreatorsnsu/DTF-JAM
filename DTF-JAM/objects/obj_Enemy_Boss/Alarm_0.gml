@@ -2,6 +2,9 @@ if (is_begin == true) {
 	alarm_set(0, 500)
 	return;
 }
+if (is_attack_1 == true && attack_1_count > 1) {
+	alarm_set(0, 10)
+}
 audio_stop_sound(sound_boss_attach_2)
 if (irandom_range(1, 2) == 1) {
 	is_attack_1 = true
