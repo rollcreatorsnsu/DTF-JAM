@@ -6,9 +6,9 @@ if (is_begin) {
 }
 if (is_attack_1) {
 	if (is_step) {
-		if (!is_right && place_meeting(x - 2, y, obj_solid)) {
+		if (!is_right && place_meeting(x - 2, y, obj_fall)) {
 			is_right = true
-		} else if (is_right && place_meeting(x + 2, y, obj_solid)) {
+		} else if (is_right && place_meeting(x + 2, y, obj_fall)) {
 			is_right = false
 		}
 		if (is_right) {
