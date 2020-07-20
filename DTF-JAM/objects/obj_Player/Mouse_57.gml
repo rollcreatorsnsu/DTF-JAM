@@ -1,1 +1,2 @@
 is_dead = true
+instance_deactivate_object(obj_PlayerPhantom)
