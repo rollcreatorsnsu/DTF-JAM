@@ -1,3 +1,5 @@
+file_text_write_real(file, global.cur_time)
+file_text_writeln(file)
 file_text_write_string(file, "dead");
 instance_destroy(obj_PlayerPhantom)
 file_text_close(file)
