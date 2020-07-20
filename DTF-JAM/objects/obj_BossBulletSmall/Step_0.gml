@@ -4,6 +4,7 @@ if (i != noone) {
 	obj_Player.hurt = true
 	if (lives == 0) {
 		obj_Player.is_dead = true
+		instance_deactivate_object(obj_PlayerPhantom)
 	}
 	instance_destroy()
 }
