@@ -1,3 +1,5 @@
+audio_stop_all()
+audio_play_sound(sound_game, 50, true);
 for (i = 1; i <= global.repeats; i++) {
 	global.current_ini = i
 	instance_create_depth(0, 0, 0, obj_PlayerPhantom);

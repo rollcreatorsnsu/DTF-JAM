@@ -1,3 +1,5 @@
+audio_stop_sound(sound_game)
+audio_play_sound(sound_boss_fighting, 50, true)
 object_set_sprite(obj_Enemy_Boss, spr_boss_welcome);
 is_begin = true
 b = 0

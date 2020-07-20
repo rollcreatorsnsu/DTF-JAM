@@ -17,6 +17,7 @@ if (!is_dead) {
 		if (portal_count < sprite_get_number(spr_boss_portal_numeral)) {
 			portal_count += 1 / sprite_get_speed(spr_boss_portal_numeral)
 		} else {
+			audio_stop_sound(sound_boss_attach_2)
 			is_attack_2 = false;
 			alarm_set(0, 100);
 		}
