@@ -1,1 +1,1 @@
-draw_text(x, y, global.cur_time / 1000)
+draw_text(x, y, 60 - global.cur_time / 1000)
