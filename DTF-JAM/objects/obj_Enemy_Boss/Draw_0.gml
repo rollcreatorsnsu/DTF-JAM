@@ -42,7 +42,7 @@ if (!is_dead) {
 			}
 		} else {			
 			draw_sprite_ext(spr_boss_attack_right, attack_1_count, x, y, is_reflected ? -1 : 1, 1, 0, c_white, 255)
-			if (attack_1_count < 7) {
+			if (attack_1_count < 6) {
 				draw_sprite(spr_boss_appear_time, attack_1_count, x + 69 * (is_reflected ? -1 : 1), y - 21)
 			} else if (attack_1_count < 8) {
 				draw_text(x + 64 * (is_reflected ? -1 : 1), y + 15, global.cur_time / 1000)
