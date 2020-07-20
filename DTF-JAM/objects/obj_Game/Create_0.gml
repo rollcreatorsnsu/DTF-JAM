@@ -6,7 +6,6 @@ for (i = 1; i <= global.repeats; i++) {
 }
 global.repeats += 1
 instance_create_depth(x, y, 0, obj_Player);
-alarm_set(0, 100);
 global.begin_time = current_time
 global.cur_time = 0
 global.boss_begin = false

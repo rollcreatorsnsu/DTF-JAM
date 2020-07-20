@@ -10,6 +10,5 @@ if (global.boss_health > 0 || global.boss_begin == false) {
 		room_goto_previous()
 	}
 } else {
-	show_message("You win!")
-	room_goto_previous()
+	room_goto_next()
 }
