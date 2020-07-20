@@ -15,4 +15,4 @@ switch (current_text) {
 		break;
 	}
 }
-draw_text(display_get_width() / 4, display_get_height() / 4, text)
+draw_text(display_get_width() / 2, display_get_height() / 2, text)
