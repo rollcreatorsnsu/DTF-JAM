@@ -21,4 +21,4 @@ portal_count = 0
 bullet = false
 alarm_set(0, 100)
 alarm_set(2, 10)
-move_towards_point(room_width / 2, 130, 1)
+move_towards_point(428, 130, 1)

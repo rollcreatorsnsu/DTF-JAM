@@ -1,6 +1,6 @@
 if (is_begin) {
-	if (is_step && distance_to_point(room_width / 2, 130) == 0) {
-		move_towards_point(room_width / 2, 130, 0)
+	if (is_step && distance_to_point(428, 130) == 0) {
+		move_towards_point(428, 130, 0)
 		is_step = false
 	}
 }
