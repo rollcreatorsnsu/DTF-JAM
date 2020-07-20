@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "4e6cf3df-8daa-4e1c-aa0f-02df3d570e0b",
+            "Value": {
+                "id": "da2884ed-00e6-45b6-aac3-3f66adf865a9",
+                "resourcePath": "sprites\\ui_cursor\\ui_cursor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "51424ce1-b4ac-4bf3-98a2-5900be82fc97",
             "Value": {
                 "id": "efb64ed0-733c-40ea-af23-8534e857c500",
@@ -639,6 +647,14 @@
             }
         },
         {
+            "Key": "b67f286e-018a-4c76-9afb-6cd5f1c1810f",
+            "Value": {
+                "id": "ffc00521-6fd1-4a25-a3d0-e8053bcebe55",
+                "resourcePath": "sprites\\spr_dialog_window\\spr_dialog_window.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bbceb11c-992f-475f-87e1-3071a249dc47",
             "Value": {
                 "id": "40ad684d-a3dc-4cc8-adb6-38672b5ab25f",
@@ -836,6 +852,14 @@
                 "id": "80e10709-77c2-4aa6-8e11-b10c4ef89fd1",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f5c8287c-050e-44e8-bfa8-3182fcd11fc9",
+            "Value": {
+                "id": "c6122a77-500b-415b-a653-98296748669c",
+                "resourcePath": "sprites\\spr_menu_player_telling_story_start\\spr_menu_player_telling_story_start.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
