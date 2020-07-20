@@ -17,3 +17,5 @@ displayWidth = cameraWidth * displayScale;
 displayHeight = cameraHeight * displayScale;
 
 surface_resize(application_surface, displayWidth, displayHeight);
+
+display_set_gui_size(displayWidth, displayHeight)
