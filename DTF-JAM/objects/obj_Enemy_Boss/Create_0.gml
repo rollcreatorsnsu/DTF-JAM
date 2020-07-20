@@ -2,6 +2,7 @@ object_set_sprite(obj_Enemy_Boss, spr_boss_welcome);
 is_begin = true
 b = 0
 is_step = false
+is_reflected = false
 is_right = true
 step_count = 0
 is_dead = false

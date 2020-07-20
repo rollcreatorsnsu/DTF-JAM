@@ -50,14 +50,14 @@ while (time <= global.cur_time && !file_text_eof(file)) {
 	file_text_readln(file)
 }
 if (left == true) {
-	x -= 1;
+	x -= obj_Player.s;
 }
 if (right == true) {
-	x += 1;
+	x += obj_Player.s;
 }
 if (up == true) {
-	y -= 1;
+	y -= obj_Player.s;
 }
 if (down == true) {
-	y += 1;
+	y += obj_Player.s;
 }
