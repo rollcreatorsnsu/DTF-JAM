@@ -18,4 +18,4 @@ displayHeight = cameraHeight * displayScale;
 
 surface_resize(application_surface, displayWidth, displayHeight);
 
-display_set_gui_size(displayWidth, displayHeight)
+display_set_gui_size(window_get_width(), window_get_height())
