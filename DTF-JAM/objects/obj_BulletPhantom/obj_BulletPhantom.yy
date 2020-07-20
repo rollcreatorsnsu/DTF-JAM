@@ -1,68 +1,68 @@
 {
-    "id": "ea00fdda-81b8-492a-93db-38fab47bc3f6",
+    "id": "221fc1db-1491-4745-b40d-fc1c3953b952",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Enemy_Snale",
+    "name": "obj_BulletPhantom",
     "eventList": [
         {
-            "id": "33f7bdd2-0f6d-450c-a054-eb315e4a9eee",
+            "id": "5db7ef88-bf0c-432a-8043-69bb4ff9f3ae",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "256e2430-e44f-4544-8014-c07f42cc4968",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "ea00fdda-81b8-492a-93db-38fab47bc3f6"
+            "eventtype": 7,
+            "m_owner": "221fc1db-1491-4745-b40d-fc1c3953b952"
         },
         {
-            "id": "4309b2fe-56b4-4ae5-972e-3cf2712dfc96",
+            "id": "16120bf1-fdfd-4379-bf36-2aa6edb8c90b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "6144d9d1-e816-40e6-bc59-3d2a1ebb2506",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "221fc1db-1491-4745-b40d-fc1c3953b952"
+        },
+        {
+            "id": "40939356-81e3-451b-aee4-716005da96c7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ea00fdda-81b8-492a-93db-38fab47bc3f6"
+            "m_owner": "221fc1db-1491-4745-b40d-fc1c3953b952"
         },
         {
-            "id": "076d1a28-1cdb-47d7-a2df-7aa7249ca52a",
+            "id": "235b68c4-6b15-470d-b87e-af3cb4d65a9d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "ea00fdda-81b8-492a-93db-38fab47bc3f6"
-        },
-        {
-            "id": "74b25e32-80af-4e5c-a553-d6ae16c1d87b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "b11cab27-1273-4b58-9262-db9f553a2399",
+            "collisionObjectId": "ea00fdda-81b8-492a-93db-38fab47bc3f6",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "ea00fdda-81b8-492a-93db-38fab47bc3f6"
+            "m_owner": "221fc1db-1491-4745-b40d-fc1c3953b952"
         },
         {
-            "id": "2b332324-bf14-4293-aa5f-724fe6396cc4",
+            "id": "1933afbd-a99b-411e-a320-3f47b01a396d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "ea00fdda-81b8-492a-93db-38fab47bc3f6"
-        },
-        {
-            "id": "3e9bbea9-db0b-4338-a1b5-58df087c504f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "221fc1db-1491-4745-b40d-fc1c3953b952",
+            "collisionObjectId": "51424ce1-b4ac-4bf3-98a2-5900be82fc97",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "ea00fdda-81b8-492a-93db-38fab47bc3f6"
+            "m_owner": "221fc1db-1491-4745-b40d-fc1c3953b952"
+        },
+        {
+            "id": "9ce18228-0fe9-4876-a77f-3d3184c012ec",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "e637b92f-8bea-4db0-8840-988f13287698",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "221fc1db-1491-4745-b40d-fc1c3953b952"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -82,7 +82,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "c2ab7d9b-a8bc-47f5-840a-e36b7661be43",
+    "solid": false,
+    "spriteId": "383adc37-0759-40c0-8b77-00c4c4b78ffc",
     "visible": true
 }
