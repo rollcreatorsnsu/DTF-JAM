@@ -1,5 +1,3 @@
-x = room_width / 2
-y = room_height / 2
 lives = 5
 file = file_text_open_write(global.repeats)
 can_shoot = true;
