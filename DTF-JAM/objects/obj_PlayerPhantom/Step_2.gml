@@ -8,13 +8,11 @@ while (time <= global.cur_time && !file_text_eof(file)) {
 			return;
 		}
 		case "shot": {
-			global.shot_defined = true
 			global.shot_dir = file_text_read_real(file);
 			is_shoot = true
 			shot_dir = global.shot_dir + 180
 			file_text_readln(file)
-			instance_create_depth(x, y, depth, obj_Bullet);
-			global.shot_defined = false;
+			instance_create_depth(x, y, depth, obj_BulletPhantom);
 			break;
 		}
 		default: {

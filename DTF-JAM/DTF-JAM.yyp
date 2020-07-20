@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "221fc1db-1491-4745-b40d-fc1c3953b952",
+            "Value": {
+                "id": "f5ef80cd-3a39-47c4-b807-fcbac7793896",
+                "resourcePath": "objects\\obj_BulletPhantom\\obj_BulletPhantom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "24bcc22a-d6b8-4d28-b7b6-985fcd2bba0f",
             "Value": {
                 "id": "1b572bdb-399c-48e0-858d-03e924c4d10e",
