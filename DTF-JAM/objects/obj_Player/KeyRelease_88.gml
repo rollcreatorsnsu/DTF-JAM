@@ -1,1 +1,1 @@
-instance_destroy()
+is_dead = true

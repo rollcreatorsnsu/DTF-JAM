@@ -29,6 +29,13 @@ if (is_dead == false) {
 		draw_sprite_ext(spr_hero_front_die, dead_cnt, x, y, is_right ? -1 : 1, 1, 0, c_white, 255)
 		dead_cnt += 1 / sprite_get_speed(spr_hero_front_die)
 	} else {
-		instance_destroy();
+		if (fade_cnt < 30) {
+			fade_cnt++;
+			draw_set_color(c_white)
+			draw_set_alpha(fade_cnt / 30)
+			draw_rectangle(0, 0, room_width, room_height, false);
+		} else {
+			instance_destroy();
+		}
 	}	
 }
